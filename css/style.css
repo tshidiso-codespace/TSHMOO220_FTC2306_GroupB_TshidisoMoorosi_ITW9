@@ -21,7 +21,7 @@
   }
 
 header {
-    background: #A39B8B url(https://i.ibb.co/m6f0gPH/Hero.jpg);
+    background: #A39B8B url(../images/Hero.jpg);
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
     padding: 30px 100px 0;
@@ -50,6 +50,9 @@ h1 {
 h2 {
     color: #325D76;
 }
+#line-1 {
+    color: #325D76;
+}
 
 nav {
     background-color: #1D3042;
@@ -76,6 +79,10 @@ article {
     padding: 50px 100px 40px;
     border-top: 5px solid #325D76;
     grid-column-gap: 5vw;
+}
+#skills {
+    display: flex;
+    flex-direction: row;
 }
 
 #social {
